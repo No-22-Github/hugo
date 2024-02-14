@@ -1,35 +1,14 @@
----
-title: "建站小记"
-subtitle: ""
-date: 2023-08-04T22:09:50+08:00
-lastmod: 2023-08-04T22:09:50+08:00
-draft: false
-tags: ["心得"]
-categories: ["心得"]
+# 建站小记
 
-featuredImage: "https://cdnjson.com/images/2024/02/14/featured-image037d7a40e9bf87f3.webp"
-featured_image: "https://cdnjson.com/images/2024/02/14/featured-image037d7a40e9bf87f3.webp"
-
-summary: "因为我一直想要一个属于自己的博客，所以我搭了这个网站！"
-
-hiddenFromHomePage: false
-hiddenFromSearch: false
-
-toc:
-  enable: true
-  auto: true
-
-mapbox:
-share:
-  enable: true
-comment:
-  enable: true
----
 ## 想法
 一直想有一个**真正**属于自己的博客，而不是像微博，QQ空间之类的。🤔于是我就想着自己搭一个博客，可网上的博客模板那么多，我又懒得挑，就一直耽搁了下来。  
 
 ## 转机
-大概是8月开头的时候吧，一位群友
+大概是8月开头的时候吧，我的群友——Malachite
+<center>
+    <img src="https://cdn.staticaly.com/gh/qwangqq/Hugo_images@main/mala%E5%A7%90%E7%9A%84%E5%A4%B4%E5%83%8F.webp" alt="mala姐的头像" title="mala姐是助人为乐的好人" width="200" align="center"/><br>
+    ↑这位是mala姐
+</center>
 
 提到了一种全白嫖的个人博客搭建方法：
 >从Vercel白嫖Hugo轻量应用容器，从eu.org白嫖域名，从ClouDNS白嫖了DNS解析服务，然后把博客存放在GitHub仓库
@@ -61,3 +40,4 @@ comment:
 ## 尾声
 这篇文章或许永远不会结束，毕竟人总是在成长，不同的感悟会随着时间慢慢到来，也许我会更新吧  
 heve a nice day：)
+
