@@ -1,1 +1,1 @@
-vc-domain-verify=22blog.v6.rocks,4af6e4f42bbcbcebbf9d
+vc-domain-verify=22hugo.v6.rocks,d9d27f383799d86d9c6d
