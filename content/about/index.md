@@ -29,7 +29,6 @@ share:
 comment:
   enable: true
 ---
-<img src="https://cdn.staticaly.com/gh/qwangqq/Hugo_images@main/84741695-0.webp"/>
 你好，欢迎来到 No.22 的博客。
 
 本页面储存了有关网站作者和网站本身的一些信息。
@@ -65,10 +64,7 @@ comment:
 >这就是忒修斯之电脑吗？
 
 然后那天我在b站看见了一个游戏演示视频，游戏是**Mindustry**  
-<center>
-    <img src="https://cdn.staticaly.com/gh/qwangqq/Hugo_images@main/20230805223315.webp" alt="现版本的Mindustry" title="现版本的Mindustry"/><br>
-    不得不说，Mindustry是一款好游戏
-</center>  
+
 
 这游戏联机很简单，输入服务器的地址，然后设置自己的名字，就可以进服务器开玩了  
 当时我一直在琢磨着取个什么名字，想着想着就随便取了个No.22，然后进了服务器，和大家混熟了，在服务器的QQ群里，我也叫No.22...  
@@ -82,10 +78,6 @@ comment:
    
 至于你平时看到的我，看起来好厉害对吧，会Python，会玩AI...  
   
-但是实际上我只会照着教程做，一遇到问题就问GPT，哪怕是简单的Python程序也是GPT写的，因为我啊，是一点都不懂那些东西的。  
-<center>
-    <img src="https://cdn.staticaly.com/gh/qwangqq/Hugo_images@main/20230805231912.webp" alt="这就是我" title="这就是我" width="200"/><br>
-    <b>这 就 是 我！</b>
-</center>  
+但是实际上我只会照着教程做，一遇到问题就问GPT，哪怕是简单的Python程序也是GPT写的，因为我啊，是一点都不懂那些东西的。   
 
 ## 未完待续 To Be Continued
