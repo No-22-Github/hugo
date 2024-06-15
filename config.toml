@@ -127,7 +127,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
   description = "No.22's Blog"
   # 网站图片, 用于 Open Graph 和 Twitter Cards
-  images = ["https://pic3.zhimg.com/80/v2-f09d6f1fe22edd02b085a36282ed2884_1440w.webp"]
+  images = [""]
 
 # 页面头部导航栏配置
 [params.header]
@@ -138,7 +138,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # LoveIt 新增 | 0.2.0 页面头部导航栏标题配置
   [params.header.title]
     # LOGO 的 URL
-    logo = "https://cdnjson.com/images/2024/02/14/avatar8324fd1ea2899e2e.jpg"
+    logo = "https://cdnjson.com/images/2024/06/15/00003667224c0aaf64ae4.png"
     # 标题名称
     name = "No.22's Blog"
     # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
@@ -191,7 +191,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # 是否隐藏网站图标资源链接
   noFavicon = false
   # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
-  svgFavicon = "https://cdnjson.com/images/2024/02/14/avatar8324fd1ea2899e2e.jpg"
+  svgFavicon = "https://cdnjson.com/images/2024/06/15/00003667224c0aaf64ae4.png"
   # Android 浏览器主题色
   themeColor = "#ffffff"
   # Safari 图标颜色
@@ -232,7 +232,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # Gravatar 邮箱，用于优先在主页显示的头像
     gravatarEmail = ""
     # 主页显示头像的 URL
-    avatarURL = "https://cdnjson.com/images/2024/02/14/avatar8324fd1ea2899e2e.jpg"
+    avatarURL = "https://cdnjson.com/images/2024/06/15/00003667224c0aaf64ae4.png"
     # LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
     title = ""
     # 主页显示的网站副标题 (允许 HTML 格式)
