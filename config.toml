@@ -315,7 +315,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   Gitea = ""
   XMPP = ""
   Matrix = ""
-  Bilibili = "https://space.bilibili.com/349402568?spm_id_from=333.1007.0.0"
+  Bilibili = "349402568"
   Discord = ""
   DiscordInvite = ""
   Lichess = ""
