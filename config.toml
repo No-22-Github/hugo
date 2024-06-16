@@ -1,4 +1,4 @@
-baseURL = "https://your-domain.org"
+baseURL = "https://no22blog.space/"
 
 # 更改使用 Hugo 构建网站时使用的默认主题
 theme = "LoveIt"
@@ -590,7 +590,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   objectFit = false
 # 网站地图配置
 [sitemap]
-  changefreq = "weekly"
+  changefreq = "always"
   filename = "sitemap.xml"
   priority = 0.5
 
