@@ -1,17 +1,17 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>心得 - 分类 - No.22&#39;s Blog</title>
-        <link>https://your-domain.org/categories/%E5%BF%83%E5%BE%97/</link>
+        <link>http://localhost:1313/categories/%E5%BF%83%E5%BE%97/</link>
         <description>心得 - 分类 - No.22&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>1829436840@qq.com (No.22)</managingEditor>
-            <webMaster>1829436840@qq.com (No.22)</webMaster><lastBuildDate>Fri, 04 Aug 2023 22:09:50 &#43;0800</lastBuildDate><atom:link href="https://your-domain.org/categories/%E5%BF%83%E5%BE%97/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>1829436840@qq.com (No.22)</webMaster><lastBuildDate>Fri, 04 Aug 2023 22:09:50 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/categories/%E5%BF%83%E5%BE%97/" rel="self" type="application/rss+xml" /><item>
     <title>建站小记</title>
-    <link>https://your-domain.org/posts/%E5%BB%BA%E7%AB%99%E5%B0%8F%E8%AE%B0/</link>
+    <link>http://localhost:1313/posts/%E5%BB%BA%E7%AB%99%E5%B0%8F%E8%AE%B0/</link>
     <pubDate>Fri, 04 Aug 2023 22:09:50 &#43;0800</pubDate>
     <author>No.22</author>
-    <guid>https://your-domain.org/posts/%E5%BB%BA%E7%AB%99%E5%B0%8F%E8%AE%B0/</guid>
+    <guid>http://localhost:1313/posts/%E5%BB%BA%E7%AB%99%E5%B0%8F%E8%AE%B0/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="https://cdn.staticaly.com/gh/qwangqq/Hugo_images@main/featured-image.webp" referrerpolicy="no-referrer">
+                <img src="https://cdnjson.com/images/2024/02/14/featured-image037d7a40e9bf87f3.webp" referrerpolicy="no-referrer">
             </div>因为我一直想要一个属于自己的博客，所以我搭了这个网站！]]></description>
 </item>
 </channel>

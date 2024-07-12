@@ -1,17 +1,35 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>所有文章 - No.22&#39;s Blog</title>
-        <link>https://your-domain.org/posts/</link>
+        <link>http://localhost:1313/posts/</link>
         <description>所有文章 | No.22&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>1829436840@qq.com (No.22)</managingEditor>
-            <webMaster>1829436840@qq.com (No.22)</webMaster><lastBuildDate>Fri, 04 Aug 2023 22:09:50 &#43;0800</lastBuildDate><atom:link href="https://your-domain.org/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>1829436840@qq.com (No.22)</webMaster><lastBuildDate>Fri, 28 Jun 2024 23:58:55 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Hugo的目录结构</title>
+    <link>http://localhost:1313/posts/hugo%E7%9A%84%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/</link>
+    <pubDate>Fri, 28 Jun 2024 23:58:55 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>http://localhost:1313/posts/hugo%E7%9A%84%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>P104安装与SD跑图测试</title>
+    <link>http://localhost:1313/posts/p104%E5%AE%89%E8%A3%85%E4%B8%8Esd%E8%B7%91%E5%9B%BE%E6%B5%8B%E8%AF%95/</link>
+    <pubDate>Sat, 15 Jun 2024 09:21:36 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>http://localhost:1313/posts/p104%E5%AE%89%E8%A3%85%E4%B8%8Esd%E8%B7%91%E5%9B%BE%E6%B5%8B%E8%AF%95/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://cdnjson.com/images/2024/06/15/00036-2662817240c0d460324fb063f8.png" referrerpolicy="no-referrer">
+            </div>前言 前段时间看到Win下通过Zluda转译使A卡跑SD，但是我折腾了好几天也没能解决我的显卡与Zluda之间的bug,但是又间接地点燃了我玩]]></description>
+</item>
+<item>
     <title>建站小记</title>
-    <link>https://your-domain.org/posts/%E5%BB%BA%E7%AB%99%E5%B0%8F%E8%AE%B0/</link>
+    <link>http://localhost:1313/posts/%E5%BB%BA%E7%AB%99%E5%B0%8F%E8%AE%B0/</link>
     <pubDate>Fri, 04 Aug 2023 22:09:50 &#43;0800</pubDate>
     <author>No.22</author>
-    <guid>https://your-domain.org/posts/%E5%BB%BA%E7%AB%99%E5%B0%8F%E8%AE%B0/</guid>
+    <guid>http://localhost:1313/posts/%E5%BB%BA%E7%AB%99%E5%B0%8F%E8%AE%B0/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="https://cdn.staticaly.com/gh/qwangqq/Hugo_images@main/featured-image.webp" referrerpolicy="no-referrer">
+                <img src="https://cdnjson.com/images/2024/02/14/featured-image037d7a40e9bf87f3.webp" referrerpolicy="no-referrer">
             </div>因为我一直想要一个属于自己的博客，所以我搭了这个网站！]]></description>
 </item>
 </channel>

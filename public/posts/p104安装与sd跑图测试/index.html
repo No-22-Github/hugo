@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>P104安装与SD跑图测试 - No.22&#39;s Blog</title><meta name="Description" content="No.22&#39;s Blog"><meta property="og:url" content="http://localhost:1313/posts/p104%E5%AE%89%E8%A3%85%E4%B8%8Esd%E8%B7%91%E5%9B%BE%E6%B5%8B%E8%AF%95/">
+  <meta property="og:site_name" content="No.22&#39;s Blog">
+  <meta property="og:title" content="P104安装与SD跑图测试">
+  <meta property="og:description" content="前言 前段时间看到Win下通过Zluda转译使A卡跑SD，但是我折腾了好几天也没能解决我的显卡与Zluda之间的bug,但是又间接地点燃了我玩">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-06-15T09:21:36+08:00">
+    <meta property="article:modified_time" content="2024-06-15T09:21:36+08:00">
+    <meta property="article:tag" content="SD">
+    <meta property="og:image" content="http://localhost:1313/">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/">
+  <meta name="twitter:title" content="P104安装与SD跑图测试">
+  <meta name="twitter:description" content="前言 前段时间看到Win下通过Zluda转译使A卡跑SD，但是我折腾了好几天也没能解决我的显卡与Zluda之间的bug,但是又间接地点燃了我玩">
+<meta name="application-name" content="No.22&#39;s Blog">
+<meta name="apple-mobile-web-app-title" content="No.22&#39;s Blog"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="https://cdnjson.com/images/2024/06/23/logo.webp"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/posts/p104%E5%AE%89%E8%A3%85%E4%B8%8Esd%E8%B7%91%E5%9B%BE%E6%B5%8B%E8%AF%95/" /><link rel="prev" href="http://localhost:1313/posts/%E5%BB%BA%E7%AB%99%E5%B0%8F%E8%AE%B0/" /><link rel="next" href="http://localhost:1313/posts/hugo%E7%9A%84%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "P104安装与SD跑图测试",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/posts\/p104%E5%AE%89%E8%A3%85%E4%B8%8Esd%E8%B7%91%E5%9B%BE%E6%B5%8B%E8%AF%95\/"
+        },"genre": "posts","keywords": "SD","wordcount":  782 ,
+        "url": "http:\/\/localhost:1313\/posts\/p104%E5%AE%89%E8%A3%85%E4%B8%8Esd%E8%B7%91%E5%9B%BE%E6%B5%8B%E8%AF%95\/","datePublished": "2024-06-15T09:21:36+08:00","dateModified": "2024-06-15T09:21:36+08:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "No.22"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="normal" data-header-mobile="normal"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('light' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'light' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="No.22&#39;s Blog"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="https://cdnjson.com/images/2024/06/23/logo.webp"
+        data-srcset="https://cdnjson.com/images/2024/06/23/logo.webp, https://cdnjson.com/images/2024/06/23/logo.webp 1.5x, https://cdnjson.com/images/2024/06/23/logo.webp 2x"
+        data-sizes="auto"
+        alt="https://cdnjson.com/images/2024/06/23/logo.webp"
+        title="https://cdnjson.com/images/2024/06/23/logo.webp" />No.22&#39;s Blog</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/about/" title="About"> 关于 </a><a class="menu-item" href="/friend/" title="Friend"> 友链&amp;好用的网站 </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="No.22&#39;s Blog"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="https://cdnjson.com/images/2024/06/23/logo.webp"
+        data-srcset="https://cdnjson.com/images/2024/06/23/logo.webp, https://cdnjson.com/images/2024/06/23/logo.webp 1.5x, https://cdnjson.com/images/2024/06/23/logo.webp 2x"
+        data-sizes="auto"
+        alt="https://cdnjson.com/images/2024/06/23/logo.webp"
+        title="https://cdnjson.com/images/2024/06/23/logo.webp" />No.22&#39;s Blog</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/about/" title="About">关于</a><a class="menu-item" href="/friend/" title="Friend">友链&amp;好用的网站</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">P104安装与SD跑图测试</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>No.22</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/ai%E7%BB%98%E7%94%BB/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>AI绘画</a></span>
+    
+
+    
+        
+
+        
+        
+            <span id="busuanzi_container_value_page_pv"><i class="far fa-eye fa-fw"></i>
+                
+                <span id="busuanzi_value_page_pv"></span>&nbsp;次阅读</span>
+        
+    
+
+</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-06-15">2024-06-15</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 782 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 2 分钟&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://cdnjson.com/images/2024/06/15/00036-2662817240c0d460324fb063f8.png"
+        data-srcset="https://cdnjson.com/images/2024/06/15/00036-2662817240c0d460324fb063f8.png, https://cdnjson.com/images/2024/06/15/00036-2662817240c0d460324fb063f8.png 1.5x, https://cdnjson.com/images/2024/06/15/00036-2662817240c0d460324fb063f8.png 2x"
+        data-sizes="auto"
+        alt="https://cdnjson.com/images/2024/06/15/00036-2662817240c0d460324fb063f8.png"
+        title="https://cdnjson.com/images/2024/06/15/00036-2662817240c0d460324fb063f8.png" /></div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#前言">前言</a></li>
+    <li><a href="#到手">到手</a></li>
+    <li><a href="#测试">测试</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="前言">前言</h2>
+<p>前段时间看到Win下通过Zluda转译使A卡跑SD，但是我折腾了好几天也没能解决我的显卡与Zluda之间的bug,但是又间接地点燃了我玩AI绘画的激情，于是我就考虑买一张显存大一点的N卡来跑图。</p>
+<p>无奈囊中羞涩，只有莫约200元预算，所以买什么正经卡就不太可能了，所以我便把目光转向了某些计算卡。</p>
+<p>正常能搞到的P10X系列的计算卡大概只有106，,104和102。而我个人认为性价比最高的就是P104，一般认为104的核心是GTX1070的阉割版，但配备了8G的显存，也就是说，这一百多元的显卡，甚至可以用来训练Lora，这性价比一下就上来了。</p>
+<p>不过需要注意的是，P10X系列的计算卡都是砍了Pcie带宽的，比如P104的Pcie带宽只有1.0 x4，理论峰值是1GB/s，不过Pcie带宽并不影响跑图速度，顶多也就载入模型的时候慢一点。不过毕竟人家就一百多块钱，你还要什么自行车。</p>
+<h2 id="到手">到手</h2>
+<p>我是在闲鱼上买的，到手价约140元，影驰矿将，双风扇，8Pin供电。
+<figure><a class="lightgallery" href="https://cdnjson.com/images/2024/06/15/P1048b8dc7e47d174a91.md.jpg" title="这是清灰后的成色" data-thumbnail="https://cdnjson.com/images/2024/06/15/P1048b8dc7e47d174a91.md.jpg" data-sub-html="<h2>这是清灰后的成色</h2><p>这是清灰后的成色</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="https://cdnjson.com/images/2024/06/15/P1048b8dc7e47d174a91.md.jpg"
+            data-srcset="https://cdnjson.com/images/2024/06/15/P1048b8dc7e47d174a91.md.jpg, https://cdnjson.com/images/2024/06/15/P1048b8dc7e47d174a91.md.jpg 1.5x, https://cdnjson.com/images/2024/06/15/P1048b8dc7e47d174a91.md.jpg 2x"
+            data-sizes="auto"
+            alt="https://cdnjson.com/images/2024/06/15/P1048b8dc7e47d174a91.md.jpg" />
+    </a><figcaption class="image-caption">这是清灰后的成色</figcaption>
+    </figure>
+成色尚可，我直接插上就能点亮，然后装了贴吧大佬提供的驱动，就能正常使用了。</p>
+<center>  
+    <img src ="https://cdnjson.com/images/2024/06/15/c040a7af3c6308a5d2d963fc631b62b62653554313161798.png">
+</center> 
+这里顺便提供一下目前最新的
+<a href="https://www.123pan.com/s/PbfFjv-a9WX.html" title="驱动">驱动</a>
+，有一个.reg的是证书，需要提前装上，双击导入就行。驱动正常安装就行，如果装不上可以尝试在安全模式下安装。
+<h2 id="测试">测试</h2>
+<p>测试使用的的是秋叶整合包，先预热10张图片后连跑10张取平均值。</p>
+<p>参数如下：</p>
+<p><div class="details admonition info open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-info-circle fa-fw" aria-hidden="true"></i>信息<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">1girl
+Steps: 20, Sampler: DPM++ 2M, Schedule type: Karras, CFG scale: 7, Seed: 2308727923, Size: 512x512, Model hash: 5353d90e0c, Model: 动漫大模型AnyLoRA - Checkpoint_bakedvaeBlessed, Clip skip: 2, Version: v1.9.3</div>
+        </div>
+    </div>
+最终跑10张如上参数的的图总用时为1 min. 56.7 sec。四舍五入2分钟吧，平均下来就是12秒一张。这么看性价比爆棚啊。跑起来的峰值功耗大概120W，对比其他显卡算是省电的了。</p>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Forge版跑图速度<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Forge版SD在512*512下大概2.5it/s，比原版快1it/s。大家可以试试</div>
+        </div>
+    </div>
+<p>至于炼丹速度，后面会在简易炼丹教程补充，尽请期待~
+咕咕咕</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2024-06-15</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="http://localhost:1313/posts/p104%E5%AE%89%E8%A3%85%E4%B8%8Esd%E8%B7%91%E5%9B%BE%E6%B5%8B%E8%AF%95/" data-title="P104安装与SD跑图测试" data-hashtags="SD"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="http://localhost:1313/posts/p104%E5%AE%89%E8%A3%85%E4%B8%8Esd%E8%B7%91%E5%9B%BE%E6%B5%8B%E8%AF%95/" data-hashtag="SD"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Linkedin" data-sharer="linkedin" data-url="http://localhost:1313/posts/p104%E5%AE%89%E8%A3%85%E4%B8%8Esd%E8%B7%91%E5%9B%BE%E6%B5%8B%E8%AF%95/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="http://localhost:1313/posts/p104%E5%AE%89%E8%A3%85%E4%B8%8Esd%E8%B7%91%E5%9B%BE%E6%B5%8B%E8%AF%95/" data-title="P104安装与SD跑图测试"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="http://localhost:1313/posts/p104%E5%AE%89%E8%A3%85%E4%B8%8Esd%E8%B7%91%E5%9B%BE%E6%B5%8B%E8%AF%95/" data-title="P104安装与SD跑图测试" data-image="https://cdnjson.com/images/2024/06/15/00036-2662817240c0d460324fb063f8.png"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/sd/">SD</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/%E5%BB%BA%E7%AB%99%E5%B0%8F%E8%AE%B0/" class="prev" rel="prev" title="建站小记"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>建站小记</a>
+            <a href="/posts/hugo%E7%9A%84%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/" class="next" rel="next" title="Hugo的目录结构">Hugo的目录结构<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2023 - 2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">No.22</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+    
+        
+        <script async src=" //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js "></script>
+    
+
+    
+        
+            <section>
+                
+                    <span id="busuanzi_container_value_site_pv"><i class="far fa-eye fa-fw"></i>
+                        
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+
+                
+                    &nbsp;|&nbsp;              
+                
+
+                
+                    <span id="busuanzi_container_value_site_uv"><i class="fa fa-user"></i>
+                        
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+            </section>
+        
+
+        
+        
+    
+
+</div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":2},"comment":{},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js"></script><script type="text/javascript" src="/js/custom.js"></script></body>
+</html>

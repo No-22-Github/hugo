@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>AI绘画 - 分类 - No.22&#39;s Blog</title>
+        <link>http://localhost:1313/categories/ai%E7%BB%98%E7%94%BB/</link>
+        <description>AI绘画 - 分类 - No.22&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>1829436840@qq.com (No.22)</managingEditor>
+            <webMaster>1829436840@qq.com (No.22)</webMaster><lastBuildDate>Sat, 15 Jun 2024 09:21:36 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/categories/ai%E7%BB%98%E7%94%BB/" rel="self" type="application/rss+xml" /><item>
+    <title>P104安装与SD跑图测试</title>
+    <link>http://localhost:1313/posts/p104%E5%AE%89%E8%A3%85%E4%B8%8Esd%E8%B7%91%E5%9B%BE%E6%B5%8B%E8%AF%95/</link>
+    <pubDate>Sat, 15 Jun 2024 09:21:36 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>http://localhost:1313/posts/p104%E5%AE%89%E8%A3%85%E4%B8%8Esd%E8%B7%91%E5%9B%BE%E6%B5%8B%E8%AF%95/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://cdnjson.com/images/2024/06/15/00036-2662817240c0d460324fb063f8.png" referrerpolicy="no-referrer">
+            </div>前言 前段时间看到Win下通过Zluda转译使A卡跑SD，但是我折腾了好几天也没能解决我的显卡与Zluda之间的bug,但是又间接地点燃了我玩]]></description>
+</item>
+</channel>
+</rss>

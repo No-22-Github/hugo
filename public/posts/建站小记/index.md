@@ -4,11 +4,7 @@
 一直想有一个**真正**属于自己的博客，而不是像微博，QQ空间之类的。🤔于是我就想着自己搭一个博客，可网上的博客模板那么多，我又懒得挑，就一直耽搁了下来。  
 
 ## 转机
-大概是8月开头的时候吧，我的群友——Malachite
-<center>
-    <img src="https://cdn.staticaly.com/gh/qwangqq/Hugo_images@main/mala%E5%A7%90%E7%9A%84%E5%A4%B4%E5%83%8F.webp" alt="mala姐的头像" title="mala姐是助人为乐的好人" width="200" align="center"/><br>
-    ↑这位是mala姐
-</center>
+大概是8月开头的时候吧，一位群友
 
 提到了一种全白嫖的个人博客搭建方法：
 >从Vercel白嫖Hugo轻量应用容器，从eu.org白嫖域名，从ClouDNS白嫖了DNS解析服务，然后把博客存放在GitHub仓库
